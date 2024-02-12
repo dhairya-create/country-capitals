@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment configurations
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+
+# Compiled binary addons (if any)
+/build/
+
+# Dependency lock files
+package-lock.json
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Ignore the dotenv file if you're using it
+.env
