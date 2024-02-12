@@ -1,5 +1,6 @@
 // Import required modules
 const express = require('express');
+const cors = require('cors')
 const data = require('./data.json'); // Assuming your data is stored in a file named data.json
 require('dotenv').config()
 
