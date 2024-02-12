@@ -6,6 +6,8 @@ require('dotenv').config()
 // Create an Express application
 const app = express();
 
+app.use(cors())
+
 // Define routes
 // Route to get the list of countries
 app.get('/countries', (req, res) => {
